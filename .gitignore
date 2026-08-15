@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local credentials and tokens
+credentials.json
+*token*.json
+*credentials*.json
+
+# AXON local runtime data / memory / generated output
+axon/data/*.json
+axon/data/output/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
